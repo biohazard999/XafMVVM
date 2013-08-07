@@ -75,6 +75,10 @@
     <Compile Include="XMVVMApplicationTests.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\XMMVM.Data\XMMVM.Data.csproj">
+      <Project>{25CB6F28-349D-479B-B093-80B0B8A4E08B}</Project>
+      <Name>XMMVM.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\XMVVM.ExpressApp\XMVVM.ExpressApp.csproj">
       <Project>{C3A90309-E359-41DF-B6AC-C8EBE4225090}</Project>
       <Name>XMVVM.ExpressApp</Name>

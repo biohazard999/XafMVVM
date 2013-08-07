@@ -1,24 +1,22 @@
-﻿using DevExpress.ExpressApp;
+﻿using DevExpress.ExpressApp.Win;
 using FakeItEasy;
 using FluentAssertions;
 using Microsoft.Practices.ServiceLocation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using XMMVM.Data;
-using XMVVM.ExpressApp.Tests.TestMothers;
 
 // ReSharper disable SuggestUseVarKeywordEvident
 
-namespace XMVVM.ExpressApp.Tests
+namespace XMVVM.ExpressApp.Win.Test
 {
     [TestClass]
-    public class XMVVMApplicationTests
+    public class XMVVMWinApplicationTests
     {
         [TestMethod]
         public void Constructor_ToEnsureExpressAppCompability_ShouldBeXafApplication()
         {
-            XafApplication application = new XMVVMApplicationMockedInstance(A.Fake<IServiceLocator>());
+            WinApplication application = new XMVVMWinApplication(A.Fake<IServiceLocator>());
 
-            application.Should().BeAssignableTo<XafApplication>();
+            application.Should().BeAssignableTo<WinApplication>();
         }
 
         [TestMethod]
@@ -26,7 +24,7 @@ namespace XMVVM.ExpressApp.Tests
         {
             var expected = A.Fake<IServiceLocator>();
 
-            XMVVMApplication application = new XMVVMApplicationMockedInstance(expected);
+            XMVVMWinApplication application = new XMVVMWinApplication(expected);
 
             application.ServiceLocator.Should().Be(expected);
         }
@@ -35,10 +33,10 @@ namespace XMVVM.ExpressApp.Tests
         public void GetServiceLocator_WithDefaultConstructor_ShouldReturnStaticServiceLocator()
         {
             var expected = A.Fake<IServiceLocator>();
-            
+
             ServiceLocator.SetLocatorProvider(() => expected);
-    
-            XMVVMApplication application = new XMVVMApplicationMockedInstance();
+
+            XMVVMWinApplication application = new XMVVMWinApplication();
 
             application.ServiceLocator.Should().Be(expected);
         }
