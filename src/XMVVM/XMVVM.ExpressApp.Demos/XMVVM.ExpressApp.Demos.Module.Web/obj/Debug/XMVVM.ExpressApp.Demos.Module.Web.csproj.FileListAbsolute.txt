@@ -1,0 +1,9 @@
+C:\F\GIT\XafMVVM\src\XMVVM\XMVVM.ExpressApp.Demos\XMVVM.ExpressApp.Demos.Module.Web\bin\Debug\XMVVM.ExpressApp.Demos.Module.Web.dll
+C:\F\GIT\XafMVVM\src\XMVVM\XMVVM.ExpressApp.Demos\XMVVM.ExpressApp.Demos.Module.Web\bin\Debug\XMVVM.ExpressApp.Demos.Module.Web.pdb
+C:\F\GIT\XafMVVM\src\XMVVM\XMVVM.ExpressApp.Demos\XMVVM.ExpressApp.Demos.Module.Web\bin\Debug\XMVVM.ExpressApp.Demos.Module.dll
+C:\F\GIT\XafMVVM\src\XMVVM\XMVVM.ExpressApp.Demos\XMVVM.ExpressApp.Demos.Module.Web\bin\Debug\XMVVM.ExpressApp.Demos.Module.pdb
+C:\F\GIT\XafMVVM\src\XMVVM\XMVVM.ExpressApp.Demos\XMVVM.ExpressApp.Demos.Module.Web\obj\Debug\XMVVM.ExpressApp.Demos.Module.Web.csprojResolveAssemblyReference.cache
+C:\F\GIT\XafMVVM\src\XMVVM\XMVVM.ExpressApp.Demos\XMVVM.ExpressApp.Demos.Module.Web\obj\Debug\XMVVM.ExpressApp.Demos.Module.Web.csproj.GenerateResource.Cache
+C:\F\GIT\XafMVVM\src\XMVVM\XMVVM.ExpressApp.Demos\XMVVM.ExpressApp.Demos.Module.Web\obj\Debug\XMVVM.ExpressApp.Demos.Module.Web.dll
+C:\F\GIT\XafMVVM\src\XMVVM\XMVVM.ExpressApp.Demos\XMVVM.ExpressApp.Demos.Module.Web\obj\Debug\XMVVM.ExpressApp.Demos.Module.Web.pdb
+C:\F\GIT\XafMVVM\src\XMVVM\XMVVM.ExpressApp.Demos\XMVVM.ExpressApp.Demos.Module.Web\obj\Debug\XMVVM.ExpressApp.Demos.Module.Web.XafMVVMAspNetModule.resources
