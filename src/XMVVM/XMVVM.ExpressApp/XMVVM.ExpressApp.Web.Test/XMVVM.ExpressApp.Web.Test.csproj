@@ -68,9 +68,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="Class1.cs">
-      <SubType>Component</SubType>
-    </Compile>
+    <Compile Include="XMVVMWebApplicationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
